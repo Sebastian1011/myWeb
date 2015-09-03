@@ -15,6 +15,7 @@ var HelloMessage = React.createClass({
         </div>
         <div className="main container">
           <div>欢迎 {this.props.name}</div>
+          <a href="/html/myself.html" id="myself">about myself</a>
         </div>
 
         
