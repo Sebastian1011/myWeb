@@ -10,12 +10,12 @@ var HelloMessage = React.createClass({
       <DefaultLayout title={this.props.title}>
         <div className="navbar-default navbar-fixed-top" >
           <div className="container center-block">
-            <h1>小名之家<small>Version 0.0.1</small></h1>
+            <h1>小名之家 <small>欢迎{this.props.name}Version 0.0.1</small></h1>
           </div>
         </div>
         <div className="main container">
-          <div>欢迎 {this.props.name}</div>
-          <a href="/html/myself.html" id="myself">about myself</a>
+          <div></div>
+          <a href="/html/myself.html" id="myself">关于我</a>
         </div>
 
         
